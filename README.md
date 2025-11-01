@@ -1,4 +1,4 @@
-# Node.js Express TypeScript Tutorial
+# Node.js Express Server Tutorial
 
 This is a simple Node.js Express project written in TypeScript. It demonstrates serving static files, rendering EJS templates, and providing a basic tasks API with form and JSON support.
 
