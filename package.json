@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-express-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/server.js",
+    "dev": "tsc-watch --onSuccess \"node dist/server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.4",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.9.1",
+    "tsc-watch": "^7.2.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "source-map-support": "^0.5.21"
+  }
+}
